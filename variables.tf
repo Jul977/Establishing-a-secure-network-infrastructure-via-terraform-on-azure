@@ -18,6 +18,14 @@ variable "vm_details" {
       nic = "nic3"
       vm  = "vm3"
     }
+    "vm4" = {
+      nic = "nic4"
+      vm  = "vm4"
+    }
+    "vm5" = {
+      nic = "nic5"
+      vm  = "vm5"
+    }
   }
 }
 
