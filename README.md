@@ -12,5 +12,5 @@ End users are granted access to the server by utilizing the firewall's public IP
 
 A remote backend, which incorporates state locking mechanisms, is employed to configure our state file.
 
-
+Resources deployed: Virtual network, Network Security Group, Public IP, Route table, Azure bastion, Azure load balancer, Azure firewall, NAT gateway 
 
