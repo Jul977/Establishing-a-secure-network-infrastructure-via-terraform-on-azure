@@ -1,14 +1,16 @@
-IMPLEMENTING A SECURE NETWORK INFRASTRUCTURE USING TERRAFORM (AZURE)
+ESTABLISHING A SECURE NETWORK INFRASTRUCTURE VIA TERRAFORM ON AZURE
 
-This code creates 5 Virtual machine(VM) with IIS installed using custom script extension. 
+This script facilitates the creation of five Virtual Machines (VMs), each integrating IIS through a custom script extension.
 
-The VMs are load balanced by a standard internal load balancer and secured by azure firewall.
+The VMs are subject to load balancing via a conventional internal load balancer and their security is fortified by an Azure Firewall.
 
-An azure bastion host is deployed to securely access the VMs privately.
+To ensure confidential VM access, an Azure Bastion host is deployed.
 
-A NAT gateway is deployed to provide outbound internet connectivity to the VMs because the VMs were deployed without a public ip.
+In anticipation of potential SNAT port exhaustion affecting our firewall, a NAT gateway is implemented, guaranteeing outbound internet connectivity for the VMs.
 
-Users can access the server using the public IP of the firewall on port 80.
+End users are granted access to the server by utilizing the firewall's public IP on port 80.
 
-A remote backend which implements state locking was used to configure our state file. 
+A remote backend, which incorporates state locking mechanisms, is employed to configure our state file.
+
+
 
