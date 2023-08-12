@@ -1,4 +1,4 @@
-# ESTABLISHING A SECURE NETWORK INFRASTRUCTURE VIA TERRAFORM ON AZURE
+# Establishing a secure network infrastructure via terraform on azure
 
 * This script facilitates the creation of five Virtual Machines (VMs), each integrating IIS through a custom script extension.
 
